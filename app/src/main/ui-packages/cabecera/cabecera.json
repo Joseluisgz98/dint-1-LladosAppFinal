@@ -1,0 +1,182 @@
+{
+  "name": "cabecera",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "48:511",
+    "version": "5069643913",
+    "component-id": "b8f314da5baa548e53e0c20bb938bf0e592c7ab0"
+  },
+  "default": "Cabecera",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Inicio"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "image",
+        "id": "Ajuste"
+      }
+    ],
+    "modes": {
+      "Cabecera": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Inicio",
+              "Logo",
+              "Ajuste"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "Inicio",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-39.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "137.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "29.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$titulo",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-146.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "tap-handler": "$onLogo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "image-content": "logo.png",
+            "scale": "cover"
+          },
+          {
+            "id": "Ajuste",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "152.47999954223633"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.18879985809326172"
+              }
+            },
+            "tap-handler": "$onAjuste",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.959999084472656"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "27.622400283813477"
+              }
+            },
+            "image-content": "$Ajuste",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "titulo": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "onLogo": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "Ajuste": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onAjuste": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Cabecera",
+      "size": {
+        "width": 360.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "titulo": "Inicio",
+        "Ajuste": "ajuste.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

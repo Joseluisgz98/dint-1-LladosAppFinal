@@ -1,0 +1,552 @@
+{
+  "name": "millon_supp",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "113:481",
+    "version": "5074824111",
+    "component-id": "7acedf0094a8b158d11181d6993dab4260459b62"
+  },
+  "default": "Millon Supp",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Precios"
+      },
+      {
+        "type": "group",
+        "id": "Precios1"
+      },
+      {
+        "type": "group",
+        "id": "Precios2"
+      },
+      {
+        "type": "text",
+        "id": "TU1MILLON"
+      },
+      {
+        "type": "vector",
+        "id": "boton"
+      },
+      {
+        "type": "text",
+        "id": "Seleccionar"
+      },
+      {
+        "type": "text",
+        "id": "Llados life"
+      },
+      {
+        "type": "vector",
+        "id": "boton1"
+      },
+      {
+        "type": "text",
+        "id": "Seleccionar1"
+      },
+      {
+        "type": "text",
+        "id": "Panza life"
+      },
+      {
+        "type": "vector",
+        "id": "boton2"
+      },
+      {
+        "type": "text",
+        "id": "Seleccionar2"
+      }
+    ],
+    "modes": {
+      "Millon Supp": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Precios",
+              "Precios1",
+              "Precios2"
+            ],
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Precios",
+            "border-radius": "25.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-146.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "TU1MILLON",
+              "boton",
+              "Seleccionar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "118.71657754010695",
+              "saturation": "0.9033816425120773",
+              "value": "0.8117647058823529"
+            }
+          },
+          {
+            "id": "Precios1",
+            "border-radius": "25.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Llados life",
+              "boton1",
+              "Seleccionar1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.05882352941176473",
+              "value": "0.4666666666666667"
+            }
+          },
+          {
+            "id": "Precios2",
+            "border-radius": "25.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "146.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Panza life",
+              "boton2",
+              "Seleccionar2"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "TU1MILLON",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-63.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "149.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "TU1MILLON",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "32.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-82.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "boton.svg"
+          },
+          {
+            "id": "Seleccionar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-79.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "25.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Seleccionar",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Llados life",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-68.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Llados life",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "32.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton1",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-82.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "boton1.svg"
+          },
+          {
+            "id": "Seleccionar1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-79.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "25.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Seleccionar",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Panza life",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-68.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "36.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Panza life",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "32.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton2",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-82.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "27.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "110.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "vector-content": "boton2.svg"
+          },
+          {
+            "id": "Seleccionar2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-79.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "25.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Seleccionar",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Millon Supp",
+      "size": {
+        "width": 360.0,
+        "height": 528.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

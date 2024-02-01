@@ -1,0 +1,396 @@
+{
+  "name": "inicio",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "60:399",
+    "version": "5074571846",
+    "component-id": "b75452a6af29e28e7788d5b921015619fa261b1c"
+  },
+  "default": "Inicio",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 2"
+      },
+      {
+        "type": "text",
+        "id": "CURSO TU1MILLON"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 4"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 5"
+      },
+      {
+        "type": "text",
+        "id": "En 2015 solo tenía 50 euros en mi cuenta del banco dormia en habitaciones con mas de 10 personas y escapaba de mi vida con las drogas. Actualmente no bebo ,no me drogo y no salgo de fiesta. Soy millonario y genero mas de 400k al mes"
+      },
+      {
+        "type": "text",
+        "id": "ver más"
+      },
+      {
+        "type": "text",
+        "id": "comprar ahora"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      }
+    ],
+    "modes": {
+      "Inicio": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Rectangle 2",
+              "CURSO TU1MILLON",
+              "Rectangle 4",
+              "Rectangle 5",
+              "En 2015 solo tenía 50 euros en mi cuenta del banco dormia en habitaciones con mas de 10 personas y escapaba de mi vida con las drogas. Actualmente no bebo ,no me drogo y no salgo de fiesta. Soy millonario y genero mas de 400k al mes",
+              "ver más",
+              "comprar ahora",
+              "Ellipse 3"
+            ],
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Rectangle 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "0.3594743638684008"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-191.8402905303307"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "318.93475341796875"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "41.019779205322266"
+              }
+            },
+            "vector-content": "rectangle_2.svg"
+          },
+          {
+            "id": "CURSO TU1MILLON",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-57.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-191.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "401.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "900.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "CURSO TU1MILLON",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-size": "24.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Rectangle 4",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-104.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "190.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "rectangle_4.svg"
+          },
+          {
+            "id": "Rectangle 5",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "81.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "190.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "130.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "rectangle_5.svg"
+          },
+          {
+            "id": "En 2015 solo tenía 50 euros en mi cuenta del banco dormia en habitaciones con mas de 10 personas y escapaba de mi vida con las drogas. Actualmente no bebo ,no me drogo y no salgo de fiesta. Soy millonario y genero mas de 400k al mes",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-12.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-6.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "301.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "295.0"
+              }
+            },
+            "font-weight": "300.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "annotated-text-content": "$textoInicio",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "20.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "ver más",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-93.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "194.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "88.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "font-weight": "900.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "ver más",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "comprar ahora",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "85.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "191.0"
+              }
+            },
+            "tap-handler": "$botonComprar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "120.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "900.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "comprar ahora",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "15.0",
+            "line-height": "1.2102272033691406",
+            "typeface": "Inter"
+          },
+          {
+            "id": "Ellipse 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "290.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-191.25"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "59.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "40.5"
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "textoInicio": {
+      "data-type": "annotated-text-content",
+      "required": false,
+      "description": ""
+    },
+    "botonComprar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Inicio",
+      "size": {
+        "width": 360.0,
+        "height": 528.0
+      },
+      "parameters": {
+        "textoInicio": {
+          "text": "En 2015 solo tenía 50 euros en mi cuenta del banco dormia en habitaciones con mas de 10 personas y escapaba de mi vida con las drogas.\n\nActualmente no bebo ,no me drogo y no salgo de fiesta. Soy millonario y genero mas de 400k al mes",
+          "annotated-text-span-list": [
+            {
+              "span-start": 0,
+              "span-length": 195,
+              "annotated-text-style": {
+                "color": {
+                  "alpha": "1.0",
+                  "hue": "0.0",
+                  "saturation": "0.0",
+                  "value": "1.0"
+                }
+              }
+            },
+            {
+              "span-start": 195,
+              "span-length": 10,
+              "annotated-text-style": {
+                "font-weight": 400.0,
+                "text-size": 20.0,
+                "typeface": "Black Han Sans",
+                "color": {
+                  "alpha": "1.0",
+                  "hue": "0.0",
+                  "saturation": "0.0",
+                  "value": "1.0"
+                }
+              }
+            },
+            {
+              "span-start": 205,
+              "span-length": 28,
+              "annotated-text-style": {
+                "color": {
+                  "alpha": "1.0",
+                  "hue": "0.0",
+                  "saturation": "0.0",
+                  "value": "1.0"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

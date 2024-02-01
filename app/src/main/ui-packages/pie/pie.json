@@ -1,0 +1,265 @@
+{
+  "name": "pie",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "54:314",
+    "version": "5069348057",
+    "component-id": "408d739befcf3d7753af21b1aa2cd3c389ba1459"
+  },
+  "default": "Pie",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "inicio-login 1"
+      },
+      {
+        "type": "image",
+        "id": "comprar-login 1"
+      },
+      {
+        "type": "image",
+        "id": "mensajes-login 1"
+      },
+      {
+        "type": "image",
+        "id": "tareas-login 1"
+      },
+      {
+        "type": "image",
+        "id": "inicio session-login 1"
+      }
+    ],
+    "modes": {
+      "Pie": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "inicio-login 1",
+              "comprar-login 1",
+              "mensajes-login 1",
+              "tareas-login 1",
+              "inicio session-login 1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "inicio-login 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-140.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "tap-handler": "$onInicio",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "image-content": "$inicio",
+            "scale": "cover"
+          },
+          {
+            "id": "comprar-login 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-68.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "tap-handler": "$onComprar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "image-content": "$comprar",
+            "scale": "cover"
+          },
+          {
+            "id": "mensajes-login 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "5.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "tap-handler": "$onMensaje",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "30.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "26.0"
+              }
+            },
+            "image-content": "$mensajes",
+            "scale": "cover"
+          },
+          {
+            "id": "tareas-login 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "75.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "tap-handler": "$onTarea",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "image-content": "$tareas",
+            "scale": "cover"
+          },
+          {
+            "id": "inicio session-login 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "145.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "1.0"
+              }
+            },
+            "tap-handler": "$onInicioSesion",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "32.0"
+              }
+            },
+            "image-content": "$login",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "inicio": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onInicio": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "comprar": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onComprar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "mensajes": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onMensaje": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "tareas": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onTarea": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "login": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onInicioSesion": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Pie",
+      "size": {
+        "width": 360.0,
+        "height": 56.0
+      },
+      "parameters": {
+        "inicio": "inicio_login_1.png",
+        "comprar": "comprar_login_1.png",
+        "mensajes": "mensajes_login_1.png",
+        "tareas": "tareas_login_1.png",
+        "login": "inicio_session_login_1.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
