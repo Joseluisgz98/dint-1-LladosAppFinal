@@ -1,0 +1,658 @@
+{
+  "name": "sala_tu1millon",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "123:604",
+    "version": "5077765986",
+    "component-id": "13fc03a059a9538f03d5be90bea8536b70d0ef4e"
+  },
+  "default": "Sala Tu1millon",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Tareas2"
+      },
+      {
+        "type": "group",
+        "id": "VideoConferencia2"
+      },
+      {
+        "type": "text",
+        "id": "Tareas"
+      },
+      {
+        "type": "image",
+        "id": "checkbox4"
+      },
+      {
+        "type": "image",
+        "id": "checkbox2"
+      },
+      {
+        "type": "image",
+        "id": "checkbox3"
+      },
+      {
+        "type": "image",
+        "id": "checkbox1"
+      },
+      {
+        "type": "text",
+        "id": "100 Flexione"
+      },
+      {
+        "type": "text",
+        "id": "Comida Equilibrada"
+      },
+      {
+        "type": "text",
+        "id": "Estudiar"
+      },
+      {
+        "type": "text",
+        "id": "Cena deficit calorico"
+      },
+      {
+        "type": "adin_component",
+        "id": "boton",
+        "key": "boton"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 10"
+      },
+      {
+        "type": "image",
+        "id": "mdi_user 1"
+      },
+      {
+        "type": "image",
+        "id": "fluent_eye-off-24-filled 1"
+      },
+      {
+        "type": "image",
+        "id": "mingcute_mic-off-fill 1"
+      }
+    ],
+    "modes": {
+      "Sala Tu1millon": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Tareas2",
+              "VideoConferencia2"
+            ],
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Tareas2",
+            "border-radius": "25.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "111.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "274.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "206.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Tareas",
+              "checkbox4",
+              "checkbox2",
+              "checkbox3",
+              "checkbox1",
+              "100 Flexione",
+              "Comida Equilibrada",
+              "Estudiar",
+              "Cena deficit calorico"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.05882352941176473",
+              "value": "0.4666666666666667"
+            }
+          },
+          {
+            "id": "VideoConferencia2",
+            "border-radius": "25.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-120.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "274.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "176.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "boton",
+              "Rectangle 10",
+              "mdi_user 1",
+              "fluent_eye-off-24-filled 1",
+              "mingcute_mic-off-fill 1"
+            ],
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Tareas",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "27.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-83.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "135.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Tareas",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "checkbox4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-29.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-12.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "image-content": "checkbox4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "checkbox2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-29.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "51.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "image-content": "checkbox4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "checkbox3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-29.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "19.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "image-content": "checkbox4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "checkbox1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "97.5"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "48.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "image-content": "checkbox4.png",
+            "scale": "cover"
+          },
+          {
+            "id": "100 Flexione",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "51.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "148.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "100 Flexione\n",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Comida Equilibrada",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "80.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "138.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Comida Equilibrada",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Estudiar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "115.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "210.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Estudiar",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Cena deficit calorico",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "14.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "147.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "112.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Cena deficit calorico",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "13.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "3.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "64.0"
+              }
+            },
+            "design": "Property 1=Entrar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            }
+          },
+          {
+            "id": "Rectangle 10",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "70.0"
+              }
+            },
+            "vector-content": "rectangle_10.svg"
+          },
+          {
+            "id": "mdi_user 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-23.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "70.0"
+              }
+            },
+            "image-content": "$usuario",
+            "scale": "cover"
+          },
+          {
+            "id": "fluent_eye-off-24-filled 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "end",
+                "offset": "-30.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "34.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "image-content": "$ojo",
+            "scale": "cover"
+          },
+          {
+            "id": "mingcute_mic-off-fill 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "46.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "110.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "image-content": "$micro",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "usuario": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "ojo": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "micro": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Sala Tu1millon",
+      "size": {
+        "width": 360.0,
+        "height": 528.0
+      },
+      "parameters": {
+        "usuario": "mdi_user_1.png",
+        "ojo": "fluent_eye_off_24_filled_1.png",
+        "micro": "mingcute_mic_off_fill_1.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

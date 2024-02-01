@@ -1,0 +1,239 @@
+{
+  "name": "boton",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "32:518",
+    "version": "5077765986",
+    "component-id": "edd84efb957a3eb5055339834e2b6067c3e1e266"
+  },
+  "default": "Property 1=Elimar foto",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Eliminar foto"
+      },
+      {
+        "type": "text",
+        "id": "añadir"
+      },
+      {
+        "type": "text",
+        "id": "Entrar"
+      }
+    ],
+    "modes": {
+      "Property 1=Elimar foto": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "25.0",
+            "tap-handler": "$on Property 1=Elimar foto tapped",
+            "is-structured": "false",
+            "children": [
+              "Eliminar foto"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            }
+          },
+          {
+            "id": "Eliminar foto",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "21.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "108.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Eliminar foto",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "Property 1=Añadir": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "25.0",
+            "tap-handler": "$on Property 1=Elimar foto tapped",
+            "is-structured": "false",
+            "children": [
+              "añadir"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "añadir",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "32.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Añadir foto\n",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      },
+      "Property 1=Entrar": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "25.0",
+            "tap-handler": "$on Property 1=Elimar foto tapped",
+            "is-structured": "false",
+            "children": [
+              "Entrar"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "118.71657754010695",
+              "saturation": "0.9033816425120773",
+              "value": "0.8117647058823529"
+            }
+          },
+          {
+            "id": "Entrar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "23.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "72.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "Entrar",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Property 1=Elimar foto tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Property 1=Elimar foto",
+      "size": {
+        "width": 80.0,
+        "height": 16.0
+      }
+    },
+    {
+      "design": "Property 1=Añadir",
+      "size": {
+        "width": 80.0,
+        "height": 16.0
+      }
+    },
+    {
+      "design": "Property 1=Entrar",
+      "size": {
+        "width": 80.0,
+        "height": 16.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

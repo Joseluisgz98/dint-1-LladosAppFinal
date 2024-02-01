@@ -1,0 +1,126 @@
+{
+  "name": "titulo_login",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "33:638",
+    "version": "5077501060",
+    "component-id": "791d322c8a1ba5dc99915ba11bf99f2dde3ce2c2"
+  },
+  "default": "TITULO LOGIN",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "iconologo"
+      },
+      {
+        "type": "text",
+        "id": "TU1MILLONlogo"
+      }
+    ],
+    "modes": {
+      "TITULO LOGIN": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "40.0",
+              "top": "18.0",
+              "right": "40.0",
+              "bottom": "18.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "iconologo",
+              "TU1MILLONlogo"
+            ]
+          },
+          {
+            "id": "iconologo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "is-structured": "false",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "fills": [
+              {
+                "color": {},
+                "opacity": "1.0",
+                "fill-type": "image",
+                "blend-mode": "normal",
+                "color-stops": [],
+                "gradient-handle-positions": []
+              }
+            ]
+          },
+          {
+            "id": "TU1MILLONlogo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "212.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "118.71657754010695",
+              "saturation": "0.9033816425120773",
+              "value": "0.8117647058823529"
+            },
+            "text-content": "TU1MILLON",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align-vertical": "center",
+            "text-size": "32.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "TITULO LOGIN",
+      "size": {
+        "width": 360.0,
+        "height": 92.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

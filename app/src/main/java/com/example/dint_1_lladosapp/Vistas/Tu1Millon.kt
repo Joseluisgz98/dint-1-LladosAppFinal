@@ -18,6 +18,7 @@ import com.example.dint_1_lladosapp.R
 import com.example.dint_1_lladosapp.cabecera.Cabecera
 import com.example.dint_1_lladosapp.data.Routes
 import com.example.dint_1_lladosapp.pie.Pie
+import com.example.dint_1_lladosapp.salatu1millon.SalaTu1millon
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -55,16 +56,10 @@ fun Tu1Millon(navController: NavHostController) {
                 .padding(innerPadding),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Text(
-                modifier = Modifier.padding(8.dp),
-                text =
-                """
-                    This is an example of a scaffold. It uses the Scaffold composable's parameters to create a screen with a simple top app bar, bottom app bar, and floating action button.
-
-                    It also contains some basic inner content, such as this text.
-
-                    You have pressed the floating action button  times.
-                """.trimIndent(),
+            SalaTu1millon(
+                ojo = painterResource(R.drawable.ojo),
+                usuario = painterResource(R.drawable.usuariooo),
+                micro = painterResource(R.drawable.micro)
             )
         }
     }

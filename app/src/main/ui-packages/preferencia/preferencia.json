@@ -1,0 +1,603 @@
+{
+  "name": "preferencia",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "120:375",
+    "version": "5077376484",
+    "component-id": "572ff0c08a4d683c326761d7c59c6ea307292c07"
+  },
+  "default": "Preferencia",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Datos Usuario",
+        "key": "datos_usuario"
+      },
+      {
+        "type": "group",
+        "id": "Notificaciones"
+      },
+      {
+        "type": "group",
+        "id": "Boton Largo"
+      },
+      {
+        "type": "group",
+        "id": "Boton Largo1"
+      },
+      {
+        "type": "text",
+        "id": "Notificacion"
+      },
+      {
+        "type": "text",
+        "id": "Idioma y moneda"
+      },
+      {
+        "type": "text",
+        "id": "Terminos y condiciones"
+      },
+      {
+        "type": "text",
+        "id": "Tema oscuro"
+      },
+      {
+        "type": "group",
+        "id": "line-md:switch-filled"
+      },
+      {
+        "type": "text",
+        "id": "Politica de privacidad"
+      },
+      {
+        "type": "group",
+        "id": "Mask group"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "group",
+        "id": "Group"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "group",
+        "id": "Group1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "text",
+        "id": "Cerrar sesion"
+      },
+      {
+        "type": "text",
+        "id": "ELIMINAR"
+      }
+    ],
+    "modes": {
+      "Preferencia": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "18.0",
+              "top": "34.0",
+              "right": "18.0",
+              "bottom": "34.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "Datos Usuario",
+              "Notificaciones",
+              "Boton Largo",
+              "Boton Largo1"
+            ],
+            "item-spacing": "22.0",
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Datos Usuario",
+            "nombre": "Llados Fitness\n",
+            "datosRegistro": "Registrado el 02 febrero de 2022",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "140.0"
+              }
+            }
+          },
+          {
+            "id": "Notificaciones",
+            "padding": {
+              "left": "15.0",
+              "top": "16.0",
+              "right": "15.0",
+              "bottom": "16.0"
+            },
+            "border-radius": "15.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "end",
+            "children": [
+              "Notificacion",
+              "Idioma y moneda",
+              "Terminos y condiciones",
+              "Tema oscuro",
+              "line-md:switch-filled",
+              "Politica de privacidad"
+            ],
+            "item-spacing": "80.0",
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09803921568627451"
+            }
+          },
+          {
+            "id": "Boton Largo",
+            "border-radius": "25.0",
+            "tap-handler": "$cerrarSession",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Cerrar sesion"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09803921568627451"
+            }
+          },
+          {
+            "id": "Boton Largo1",
+            "border-radius": "25.0",
+            "tap-handler": "$eliminar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "319.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "ELIMINAR"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09803921568627451"
+            }
+          },
+          {
+            "id": "Notificacion",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "171.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "15.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Notificacion",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Idioma y moneda",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "165.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "21.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Idioma y moneda",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Terminos y condiciones",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "200.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Terminos y condiciones",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Tema oscuro",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "185.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "20.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Tema oscuro",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "line-md:switch-filled",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "Mask group",
+              "Ellipse 2"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Politica de privacidad",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "184.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Politica de privacidad",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Mask group",
+            "margin": {
+              "left": "3.0",
+              "top": "8.0",
+              "right": "3.0",
+              "bottom": "8.0"
+            },
+            "is-structured": "false",
+            "children": [
+              "Group",
+              "Vector"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Ellipse 2",
+            "margin": {
+              "left": "14.0",
+              "top": "9.0",
+              "right": "4.0",
+              "bottom": "9.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "Group",
+            "is-structured": "false",
+            "children": [
+              "Group1",
+              "Vector1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Group1",
+            "is-structured": "false",
+            "children": [
+              "Vector2"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Vector1",
+            "margin": {
+              "left": "11.0",
+              "top": "1.0",
+              "right": "1.0",
+              "bottom": "1.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "-1.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "-1.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Cerrar sesion",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-71.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "144.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "Cerrar sesion",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "ELIMINAR",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-71.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "4.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "144.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.9793388429752066",
+              "value": "0.9490196078431372"
+            },
+            "text-content": "Eliminar cuenta",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "cerrarSession": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "eliminar": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Preferencia",
+      "size": {
+        "width": 355.0,
+        "height": 514.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

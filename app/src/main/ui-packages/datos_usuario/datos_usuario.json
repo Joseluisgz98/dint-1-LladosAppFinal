@@ -1,0 +1,242 @@
+{
+  "name": "datos_usuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "26:511",
+    "version": "5077455032",
+    "component-id": "f143ca87a6edd9d1a461ebb037a9e8c86b5d6ebe"
+  },
+  "default": "Datos Usuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "foto preferencia"
+      },
+      {
+        "type": "text",
+        "id": "Llados Fitness"
+      },
+      {
+        "type": "text",
+        "id": "Registrado el 02 febrero de 2022"
+      },
+      {
+        "type": "adin_component",
+        "id": "boton",
+        "key": "boton"
+      },
+      {
+        "type": "adin_component",
+        "id": "boton1",
+        "key": "boton"
+      }
+    ],
+    "modes": {
+      "Datos Usuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "border-radius": "15.0",
+            "is-structured": "false",
+            "children": [
+              "foto preferencia",
+              "Llados Fitness",
+              "Registrado el 02 febrero de 2022",
+              "boton",
+              "boton1"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.09803921568627451"
+            }
+          },
+          {
+            "id": "foto preferencia",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-0.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-27.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "43.0"
+              }
+            },
+            "vector-content": "foto_preferencia.svg"
+          },
+          {
+            "id": "Llados Fitness",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "47.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            },
+            "text-content": "$nombre",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Registrado el 02 febrero de 2022",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "8.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "57.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "116.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "4.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "0.0",
+              "saturation": "0.03546099290780149",
+              "value": "0.5529411764705883"
+            },
+            "text-content": "$datosRegistro",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "5.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "80.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.0"
+              }
+            },
+            "design": "Property 1=Añadir",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            }
+          },
+          {
+            "id": "boton1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-75.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "8.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "80.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "13.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "nombre": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "datosRegistro": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Datos Usuario",
+      "size": {
+        "width": 319.0,
+        "height": 140.0
+      },
+      "parameters": {
+        "nombre": "Llados Fitness\n",
+        "datosRegistro": "Registrado el 02 febrero de 2022"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

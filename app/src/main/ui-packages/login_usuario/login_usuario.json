@@ -1,0 +1,423 @@
+{
+  "name": "login_usuario",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "NeyOUydGYubtYVyg3OKeWv",
+    "node": "123:471",
+    "version": "5077582664",
+    "component-id": "ead3afc4835abdadbf2d85eada7dd8b49b013996"
+  },
+  "default": "LoginUsuario",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "image",
+        "id": "Logo"
+      },
+      {
+        "type": "text",
+        "id": "TU1MILLON"
+      },
+      {
+        "type": "group",
+        "id": "Entrar"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 8"
+      },
+      {
+        "type": "vector",
+        "id": "Rectangle 9"
+      },
+      {
+        "type": "text",
+        "id": "CONTRASEÑA"
+      },
+      {
+        "type": "text",
+        "id": "NOMBRE DE USUARIO"
+      },
+      {
+        "type": "adin_component",
+        "id": "boton",
+        "key": "boton"
+      },
+      {
+        "type": "text",
+        "id": "Crear cuenta"
+      },
+      {
+        "type": "vector",
+        "id": "Line 1"
+      }
+    ],
+    "modes": {
+      "LoginUsuario": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Logo",
+              "TU1MILLON",
+              "Entrar",
+              "Rectangle 8",
+              "Rectangle 9",
+              "CONTRASEÑA",
+              "NOMBRE DE USUARIO"
+            ],
+            "background-color": {
+              "alpha": "0.6588235294117647",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.027450980392156862"
+            }
+          },
+          {
+            "id": "Logo",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-103.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-146.0"
+              }
+            },
+            "tap-handler": "$onLogo",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "68.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            },
+            "image-content": "$logo",
+            "scale": "cover"
+          },
+          {
+            "id": "TU1MILLON",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "57.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-143.5"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "224.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "51.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "118.72340425531915",
+              "saturation": "0.9082125603864735",
+              "value": "0.8117647058823529"
+            },
+            "text-content": "TU1MILLON",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "36.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Entrar",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "92.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "218.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "82.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "boton",
+              "Crear cuenta",
+              "Line 1"
+            ],
+            "background-color": {
+              "alpha": "0.0",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Rectangle 8",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-66.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "260.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "rectangle_8.svg"
+          },
+          {
+            "id": "Rectangle 9",
+            "border-radius": "25.0",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "260.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "28.0"
+              }
+            },
+            "vector-content": "rectangle_9.svg"
+          },
+          {
+            "id": "CONTRASEÑA",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-2.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-14.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "214.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "0.47843137254901963",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "CONTRASEÑA",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "NOMBRE DE USUARIO",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "-8.5"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-66.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "209.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "0.47843137254901963",
+              "hue": "0.0",
+              "saturation": "0.0",
+              "value": "0.0"
+            },
+            "text-content": "NOMBRE DE USUARIO",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "boton",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "48.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "25.0"
+              }
+            },
+            "design": "Property 1=Entrar",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "115.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "16.0"
+              }
+            }
+          },
+          {
+            "id": "Crear cuenta",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "80.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "45.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "104.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "19.0"
+              }
+            },
+            "font-weight": "800.0",
+            "color": {
+              "alpha": "1.0",
+              "hue": "244.7107438016529",
+              "saturation": "0.9490196078431372",
+              "value": "1.0"
+            },
+            "text-content": "Crear cuenta",
+            "italic": "true",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "10.0",
+            "line-height": "1.36181640625",
+            "typeface": "Open Sans"
+          },
+          {
+            "id": "Line 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "80.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "56.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "0.0"
+              }
+            },
+            "vector-content": "line_1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "logo": {
+      "data-type": "image",
+      "required": false,
+      "description": ""
+    },
+    "onLogo": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "LoginUsuario",
+      "size": {
+        "width": 360.0,
+        "height": 526.0
+      },
+      "parameters": {
+        "logo": "logo.png"
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

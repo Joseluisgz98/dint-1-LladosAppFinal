@@ -18,6 +18,7 @@ import androidx.navigation.compose.rememberNavController
 import com.example.dint_1_lladosapp.R
 import com.example.dint_1_lladosapp.cabecera.Cabecera
 import com.example.dint_1_lladosapp.data.Routes
+import com.example.dint_1_lladosapp.loginusuario.LoginUsuario
 import com.example.dint_1_lladosapp.pie.Pie
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -56,16 +57,8 @@ fun Login(navController: NavHostController) {
                 .padding(innerPadding),
             verticalArrangement = Arrangement.spacedBy(16.dp),
         ) {
-            Text(
-                modifier = Modifier.padding(8.dp),
-                text =
-                """
-                    This is an example of a scaffold. It uses the Scaffold composable's parameters to create a screen with a simple top app bar, bottom app bar, and floating action button.
-
-                    It also contains some basic inner content, such as this text.
-
-                    You have pressed the floating action button  times.
-                """.trimIndent(),
+            LoginUsuario(
+                logo = painterResource(R.drawable.cabecera_logo)
             )
         }
     }
